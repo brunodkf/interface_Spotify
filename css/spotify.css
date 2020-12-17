@@ -445,10 +445,36 @@ body{
     margin-bottom: 10px;
 
 }
-.redesSociais img{
-    width: 50px;   
+.redesSociais{
+   
+    font-size: 30px;
+}
+.redesSociais a{
+
+    padding: 10px; 
+  
+    font-size: 30px; 
+  
+    width: 30px;
+  
+    text-align: center;
+  
+    text-decoration: none;
+  
+    margin: 5px 2px; 
+  
+    border-radius: 50%;  
+  
+    background: rgb(36, 36, 36); 
+  
+    color: rgb(255, 253, 253);
+  
 }
 
+.redesSociais a:hover{
+    color: #01c044;
+}
+  
 
 .brasil{
    
@@ -494,3 +520,4 @@ body{
     font-size: 11px;
     margin-right: 50px;
 }
+
