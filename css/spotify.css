@@ -47,35 +47,52 @@ body{
 .menu-opcoes a:hover{
     color: #1ed760;
 }
+.login{
+    background: none;
+    border: none;
+}
+.login:focus{
+    outline: none;
+}
 
 .brunin{
     width: 40px;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .perfil{
     display: flex;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 24px;
+
 }
-
-.perfil .submenu{
-
-    list-style: none;
-    background-color: black;
-    border-radius: 10px;
-
+.submenu{
     display: none;
     position: absolute;
-}
+    top: 75px;
+    width: 150px;
+    height: 65px;
 
-.perfil:hover ul{
-    margin: 20px;
-    display:flex;
-    flex-direction: column;
-}
+    border-radius: 10px;
 
-.submenu li{
-   margin: 20px 50px 10px 0px;
+
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #ebebeb;
+    
+}
+.submenu a{
+    color: rgb(68, 68, 68);
+}
+.mostra-submenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 9px;
 }
 
 
@@ -149,6 +166,9 @@ body{
 .div-direita button:hover{
     background: #b1f7ea;
     transform: scale(1.02);
+}
+.div-direita button:focus{
+    outline: none;
 }
 
 .div-esquerda{
@@ -261,6 +281,9 @@ body{
 .div-web button:hover{
     background: #28fc72;
 
+}
+.div-web button:focus {
+    outline: none;
 }
 
 
