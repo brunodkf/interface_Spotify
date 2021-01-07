@@ -1,0 +1,42 @@
+.aproveite{
+    background-color: #eff3f2;
+    padding-top: 90px;
+}
+.aproveite .container{
+    
+    margin: 0 auto;
+    width: 1170px;
+    
+}
+
+.aproveite h2{
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.outros-itens{
+    margin: 30px;
+}
+.outros h3{
+    padding-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.outros p{
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.outros a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #16c051;
+    text-transform: uppercase;
+}
+.outros{
+    padding: 60px;
+    padding-bottom: 90px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}

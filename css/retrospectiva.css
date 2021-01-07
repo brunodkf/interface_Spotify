@@ -1,0 +1,111 @@
+
+.retrospectiva{
+    background-color: #cb1582;
+}
+
+.retrospectiva .container{
+
+    width: 1170px;
+    margin: 0 auto;    
+    padding-top: 80px;
+    padding-bottom: 120px ;
+
+}
+
+.div_retrospectiva{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+    
+}
+
+.div-direita{
+    color:#a5ffef;
+    width: 555px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.div-direita h2{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.div-direita h3{
+    width: 500px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.div-direita p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.div-direita button{
+        margin-top: 1em;
+        background:#a5ffef;
+        border: 0;
+        padding: .6em;
+        font-size: 1.02em;
+        text-transform: uppercase;
+        border-radius: 50px;
+        font-weight: bold;
+        color: #cb1582;
+        width: 350px;
+        height: 50px;
+}
+.div-direita button:hover{
+    background: #b1f7ea;
+    transform: scale(1.02);
+}
+.div-direita button:focus{
+    outline: none;
+}
+
+.div-esquerda{
+    margin-left: 100px;
+}
+.fundo {
+    
+    display: block;
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 310px;
+
+    background: linear-gradient(rgb(0, 0, 255),rgb(165, 222, 255),rgb(255, 255, 110),rgb(221, 49, 49),black) ;
+    left: -55px;
+    top: 40px;
+    z-index: 0;
+    opacity:1;
+}
+
+.imagem{
+    position: relative;    
+}
+.imagem img{
+
+    width: 390px;
+    height: 400px;
+    position: absolute;
+
+}
+.imagem h2{
+    position: absolute;
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: bold;
+    color:  #cb1582;
+    margin: 40px;
+    margin-top: 250px;
+}
+

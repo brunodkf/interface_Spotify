@@ -1,0 +1,104 @@
+body{
+    background-color: #d8d1d1;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho{
+    background-color: black;
+    height: 80px;
+}
+
+.cabecalho .container{
+    width: 1170px;
+    margin: 0 auto;
+    height: 80px;
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgheader{
+    width: 133px;
+
+    align-self: start;    
+}
+
+.cabecalho nav{
+    margin: 0 30px;
+}
+.menu-opcoes{
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: none;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+  
+}
+
+.menu-opcoes a{
+    color: #d8d1d1;
+    text-decoration: none;
+    margin: 0 20px;
+    
+}
+.menu-opcoes .perfil{
+    margin: 0 -30px;
+}
+.menu-opcoes a:hover{
+    color: #1ed760;
+}
+.login{
+    background: none;
+    border: none;
+
+    display: flex;
+    align-items: center;
+}
+.login:focus{
+    outline: none;
+}
+
+.brunin{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.perfil{
+    display: flex;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 24px;
+
+}
+.submenu{
+    display: none;
+    position: absolute;
+    top: 75px;
+    width: 150px;
+    height: 65px;
+
+    border-radius: 10px;
+
+
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #ebebeb;
+    
+}
+.submenu a{
+    color: rgb(68, 68, 68);
+}
+.mostra-submenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 9px;
+}
+
